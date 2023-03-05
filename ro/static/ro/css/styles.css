@@ -1,0 +1,143 @@
+:root {
+    --spacing-large: 14rem;
+    --spacing-normal: 7rem;
+    --spacing-medium: 5rem;
+    --spacing-small: 2.5rem; 
+
+    --color-gray-1: #292929;
+    --color-gold-1: #AD8C00;
+
+}
+
+/* font-family: 'Noto Serif Display', serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Noto Serif JP', serif; */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+
+body {
+    font-size: 2.4rem;
+    font-family: 'Noto Serif JP', serif;
+    background-color: #f5f5f5;
+    color: var(--color-gray-1);
+}
+
+h1 {
+    font-family: 'Noto Serif Display', serif; 
+    font-size: 7.2rem;
+    font-weight: 600;
+}
+
+.logo {
+    margin-bottom: var(--spacing-normal);
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.grid-container {
+    display: grid; 
+    column-gap: var(--spacing-small);
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+
+.temp-img {
+    width: 57.5rem;
+    height: 66.5rem;
+}
+
+.spec-char {
+    cursor: pointer;
+    color: #5084AD;
+    font-weight: 800;
+}
+
+.mist-sec {
+    margin-top: var(--spacing-large);
+}
+
+.mist-day-name {
+    font-size: 9rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: .5rem;
+}
+
+.mist-day {
+    font-size: 3.2rem;
+    font-weight: 400;
+    text-align: center;
+    color: var(--color-gold-1);
+    margin-bottom: var(--spacing-normal);
+}
+
+.mist-name {
+    width: 65%;
+    height: 22rem;
+    margin: 0 auto;
+    background: red;
+    margin-bottom: var(--spacing-normal);
+}
+
+.mist-btn {
+    /* display: block; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2.5rem 9rem;
+    text-decoration: none;
+    max-width: 25rem;
+    max-height: 9.8rem;
+    color: #032D4F;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2.8rem;
+    margin-bottom: var(--spacing-normal);
+    background: rgb(123,168,204);
+    background: linear-gradient(180deg, rgba(123,168,204,1) 0%, rgba(80,132,173,1) 100%);
+}
+
+.intent-links {
+    display: flex;
+    flex-direction: column;
+    margin-left: 18%;
+}
+
+.intent-links a {
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: #0E3A5D;
+    margin-bottom: 2rem;
+}
+
+.mist-btn, .mist-name {
+    border-radius: .5rem;
+    box-shadow: 0 .2rem .2rem .1rem rgba(0, 0, 0, .15);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10rem;
+    margin-top: var(--spacing-normal);
+    background-color: var(--color-gray-1);
+}
+
+.footer-container a {
+    font-family: 'Noto Sans', sans-serif;
+    color:#B8B8B8;
+    font-size: 2.4rem;
+    text-decoration: none;
+}
