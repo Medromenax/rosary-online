@@ -86,7 +86,7 @@ h1 {
     width: 65%;
     height: 22rem;
     margin: 0 auto;
-    background: red;
+    /* background: red; */
     margin-bottom: var(--spacing-normal);
 }
 
